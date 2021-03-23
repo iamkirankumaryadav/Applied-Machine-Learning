@@ -9,13 +9,13 @@
 - Information 
 - Rows and Columns 
 - Numerical or Categorical 
-- Find Missing Data 
+- Find **Missing** Data 
 - Find Relation between Features and Labels 
 - Visual Data 
 
 ### 2. Clean the Data 
-- Fill or Drop Missing 
-- Encode Categorical Data 
+- **Fill** or **Drop** Missing 
+- **Encode** Categorical Data 
 
 ### 3. Split Datset into Train Set, Validate Set and Test Set 
 
