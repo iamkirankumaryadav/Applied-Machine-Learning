@@ -35,8 +35,8 @@
 
 Model | Type | Train Speed | Predict Speed | Performance
 :--- | :--- | :--- | :--- | :---
-Logistic Regression | Classification | Fast | Fast | Medium | Low
-Support Vector Machine  |  Classification | Slow | Moderate | Low | Medium
+Logistic Regression | Classification | Fast | Fast | Low
+Support Vector Machine  |  Classification | Slow | Moderate | Medium
 Multi Layer Perceptron | Both | Slow | Moderate | High 
 Random Forest | Both | Moderate | Moderate | Medium
 Boosted Tree | Both | Slow | Fast | High
