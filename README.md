@@ -23,7 +23,7 @@
 - Use **K Fold Cross Validation** to get **Better Accuracy** and **Observe** the **Cross Validation Score**
 
 ### 5. Tune Hyperparameters by using Grid Search Cross Validation
-- Apply **Grid Search Cross Validation** to Find **Optimal Hyperparameter Settings**
+- Apply **Grid Search Cross Validation** to Find **Optimal Hyperparameters** of a Model which results in the most **Accurate Predictions**
 - Find **Best Parameters**
 
 ### 6. Evaluate on Validation Set
