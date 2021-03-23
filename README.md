@@ -19,10 +19,16 @@
 
 ### 3. Split Datset into Train Set, Validate Set and Test Set 
 
-### 4. Fit | Train an Initial Model and Evaluate ( Use K Fold Cross Validation to get Better Accuracy )
+### 4. Fit | Train an Initial Model and Evaluate 
+- Use **K Fold Cross Validation** to get **Better Accuracy** and **Observe** the **Cross Validation Score**
 
-### 5. Tune Hyperparameters by using Best Performing from K Fold Cross Validations ( Use Grid Search to get Variety )
+### 5. Tune Hyperparameters by using Grid Search Cross Validation
+- Apply **Grid Search Cross Validation** to Find **Optimal Hyperparameter Settings**
+- Find **Best Parameters**
 
-### 6. Evaluate on Validation Set 
+### 6. Evaluate on Validation Set
+- Evaluate the Results on Validation Set using the **Best Performing Parameters**
+- Create more than one Model to Find **Best Performing Model** for **Test Set** 
 
-### 7. Select and Evaluate the Final Better Performing Model on Test Set
+### 7. Select and Evaluate the Final Model on Test Set
+- Select the Final **Best** Performing Model on Test Set for Evaluation.
