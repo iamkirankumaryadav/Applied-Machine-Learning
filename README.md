@@ -32,3 +32,14 @@
 
 ### 7. Select and Evaluate the Final Model on Test Set
 - Select the Final **Best** Performing Model on Test Set for Evaluation.
+
+Model | Type | Train Speed | Predict Speed | Performance
+:--- | :--- | :--- | :--- | :---
+Logistic Regression | Classification | Fast | Fast | Medium | Low
+Support Vector Machine  |  Classification | Slow | Moderate | Low | Medium
+Multi Layer Perceptron | Both | Slow | Moderate | Low
+Random Forest | Both | Moderate | Moderate | Low
+Boosted Tree | Both | Slow | Fast |Low
+
+
+
