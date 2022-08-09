@@ -118,7 +118,7 @@ from sklearn.linear_model import LogisticRegression
 df = pd.read_csv('Data/Multiclass.csv')
 ```
 
-### Visualize Digit:
+### `Visualize` Digits:
 ```python
 pixel_colname = df.columns[:-1]
 
