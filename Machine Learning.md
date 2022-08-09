@@ -36,7 +36,7 @@ df = pd.DataFrame(data.data, columns=data.feature_names)
 df['species'] = data.target
 ```
 
-### Converting feature matrix into NumPy array:
+### Converting feature matrix into `NumPy Array` :
 ```python
 # Only comsider the feature matrix:
 df.loc[:, ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']]
