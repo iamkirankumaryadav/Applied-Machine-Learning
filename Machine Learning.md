@@ -17,10 +17,21 @@
 - Before `fitting` | training a model with `scikit learn`, your data has to be in a numeric format.
 - `Scikit Learn` expects feature matrix ( Independent features ) and target vector ( Dependent feature )
 
-### Import important libraries
+### Import important libraries:
 ```python
 %matplotlib inline
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
+```
+
+### Load dataset:
+```python
+data = load_iris()
+
+# Feature matrix:
+df = pd.DataFrame(data.data, columns=data.feature_names) 
+
+# Target vector:
+df['species'] = data.target
 ```
