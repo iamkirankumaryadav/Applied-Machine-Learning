@@ -35,3 +35,15 @@ df = pd.DataFrame(data.data, columns=data.feature_names)
 # Target vector:
 df['species'] = data.target
 ```
+
+### Converting feature matrix into NumPy array:
+```python
+# Only comsider the feature matrix:
+df.loc[:, ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']]
+
+# Converting feature matrix into NumPy array:
+X = df.loc[:, ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']].values
+y = df.loc[:, 'species'].values
+```
+
+### `Scikit Learn` expects data in this 👆🏻 format 
